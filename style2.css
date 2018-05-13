@@ -1,0 +1,21 @@
+body
+{
+    margin: 0px; /*unnecessary spacings are removed*/
+}
+header
+{
+    display: flex; /*flex layout*/
+    flex-wrap: nowrap;
+    width: 100%; /*header is stretched*/
+    height: 100%;
+}
+div 
+{
+    background: green;
+   /*background is set to green*/
+    text-align: center;
+    padding: 10px; /*internal spacing is 10px*/
+    width: 33%;
+    height: 500px;
+    margin: 10px; /*external spacing is 10px*/
+}
